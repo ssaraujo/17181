@@ -1,0 +1,245 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP User Control v1.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-11-02 16:49-0500\n"
+"PO-Revision-Date: 2012-11-02 16:49-0500\n"
+"Last-Translator: Bill Edgar <bill@palmspark.com>\n"
+"Language-Team:  <support@palmspark.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;esc_attr_e;esc_attr__;"
+"esc_html_e;_x;_ex\n"
+"X-Poedit-Basepath: ../\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: wp_uc_widget.php:124
+msgid "exiting."
+msgstr ""
+
+#: inc/WPUserControlWidget.php:61
+msgid "Welcome,"
+msgstr ""
+
+#: inc/WPUserControlWidget.php:68
+msgid "You're logged in as"
+msgstr ""
+
+#: inc/WPUserControlWidget.php:70
+msgid "Log out"
+msgstr ""
+
+#: inc/WPUserControlWidget.php:79
+msgid "Admin"
+msgstr ""
+
+#: inc/WPUserControlWidget.php:82
+msgid "Profile"
+msgstr ""
+
+#: inc/WPUserControlWidget.php:190
+#, php-format
+msgid "%s "
+msgstr "%s "
+
+#: inc/WPUserControlWidget.php:191
+msgid "E-mail could not be sent."
+msgstr ""
+
+#: inc/WPUserControlWidget.php:192
+msgid "Possible reason: your host may have disabled the mail() function..."
+msgstr ""
+
+#: inc/WPUserControlWidget.php:276
+msgid "Username exists. Please choose another."
+msgstr ""
+
+#: inc/WPUserControlWidget.php:279
+msgid "Email already registered. Did you forget your password?"
+msgstr ""
+
+#: inc/WPUserControlWidget.php:282
+msgid "Sorry, new registrations are not allowed at this time."
+msgstr ""
+
+#: inc/WPUserControlWidget.php:285
+msgid "You are logged in already. No need to register again!"
+msgstr ""
+
+#: inc/WPUserControlWidget.php:288
+msgid "Please enter a valid user name and email address."
+msgstr ""
+
+#: inc/WPUserControlWidget.php:291
+msgid "User name cannot contain uppercase letters."
+msgstr ""
+
+#: inc/WPUserControlWidget.php:294
+msgid "User name cannot contain spaces."
+msgstr ""
+
+#: inc/WPUserControlWidget.php:297
+msgid "Registration failed. Unknown error."
+msgstr ""
+
+#: inc/WPUserControlWidget.php:316
+msgid ""
+"Someone has asked to reset the password for the following site and username."
+msgstr ""
+
+#: inc/WPUserControlWidget.php:318
+msgid "A new user has been created for the following site."
+msgstr ""
+
+#: inc/WPUserControlWidget.php:321
+#, php-format
+msgid "Username: %s"
+msgstr ""
+
+#: inc/WPUserControlWidget.php:322
+#, php-format
+msgid "Temporary Password: %s"
+msgstr ""
+
+#: inc/WPUserControlWidget.php:323
+msgid "Please change your password when you login."
+msgstr ""
+
+#: inc/WPUserControlWidget.php:347
+msgid ""
+"Customizable user control widget for login, registration, lost password, "
+"etc. within sidebar."
+msgstr ""
+
+#: inc/WPUserControlWidget.php:403 inc/WPUserControlWidget.php:404
+#: inc/WPUserControlWidget.php:414
+msgid "Login"
+msgstr ""
+
+#: inc/WPUserControlWidget.php:407 inc/WPUserControlWidget.php:416
+msgid "Reset"
+msgstr ""
+
+#: inc/WPUserControlWidget.php:408
+msgid "Reset Password"
+msgstr ""
+
+#: inc/WPUserControlWidget.php:409 inc/WPUserControlWidget.php:410
+#: inc/WPUserControlWidget.php:415
+msgid "Register"
+msgstr ""
+
+#: inc/WPUserControlWidget.php:411
+msgid "WP User Control Widget"
+msgstr ""
+
+#: inc/WPUserControlWidget.php:437
+msgid "Title "
+msgstr ""
+
+#: inc/WPUserControlWidget.php:444
+msgid "Display Avatar "
+msgstr ""
+
+#: inc/WPUserControlWidget.php:452
+msgid "Login Tab Label "
+msgstr ""
+
+#: inc/WPUserControlWidget.php:460
+msgid "Login Button Label "
+msgstr ""
+
+#: inc/WPUserControlWidget.php:468
+msgid "Reset Tab Label "
+msgstr ""
+
+#: inc/WPUserControlWidget.php:476
+msgid "Reset Button Label "
+msgstr ""
+
+#: inc/WPUserControlWidget.php:484
+msgid "Register Tab Label "
+msgstr ""
+
+#: inc/WPUserControlWidget.php:492
+msgid "Register Button Label "
+msgstr ""
+
+#: inc/WPUserControlWidget.php:499
+msgid "Default Tab "
+msgstr ""
+
+#: inc/WPUserControlWidget.php:509
+msgid "Custom Login URL "
+msgstr ""
+
+#: inc/WPUserControlWidget.php:517
+msgid "Custom Link Title"
+msgstr ""
+
+#: inc/WPUserControlWidget.php:525
+msgid "Custom Link "
+msgstr ""
+
+#: inc/WPUserControlWidget.php:533
+msgid "From Email Address "
+msgstr ""
+
+#: inc/WPUserControlWidget.php:541
+msgid "From Name "
+msgstr ""
+
+#: inc/WPUserControlWidget.php:651
+msgid "Please check your username and password."
+msgstr ""
+
+#: inc/WPUserControlWidget.php:656
+msgid "Enter your username and password below to login."
+msgstr ""
+
+#: inc/WPUserControlWidget.php:661 inc/WPUserControlWidget.php:813
+msgid "Username"
+msgstr ""
+
+#: inc/WPUserControlWidget.php:671
+msgid "Password"
+msgstr ""
+
+#: inc/WPUserControlWidget.php:677
+msgid "Remember me"
+msgstr ""
+
+#: inc/WPUserControlWidget.php:795
+msgid "Check your email for the password and then return to log in."
+msgstr ""
+
+#: inc/WPUserControlWidget.php:798
+msgid "Complete the form below to register."
+msgstr ""
+
+#: inc/WPUserControlWidget.php:806
+msgid "New registrations currently disabled."
+msgstr ""
+
+#: inc/WPUserControlWidget.php:818 inc/WPUserControlWidget.php:879
+msgid "Email"
+msgstr ""
+
+#: inc/WPUserControlWidget.php:846
+msgid "Email does not exist."
+msgstr ""
+
+#: inc/WPUserControlWidget.php:850
+msgid "Invalid email. Please try again."
+msgstr ""
+
+#: inc/WPUserControlWidget.php:872
+msgid "Check your email for your new password."
+msgstr ""
+
+#: inc/WPUserControlWidget.php:875
+msgid "Enter your email address to reset your password."
+msgstr ""

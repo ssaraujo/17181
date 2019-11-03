@@ -1,0 +1,409 @@
+.CLB{clear: both;}
+div[id^="gb_gallery"] ul, div[id^="GB_preview"] ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+.GB_gallery{
+    margin: 0px auto;
+}
+div[id^="gb_gallery"] .GB_helper, div[id^="gb_gallery"] .GB_helper .gb_gallery_device, div[id^="gb_gallery"] .GB_helper .helpslideshow{
+    display: none;
+    opacity: 0;
+}
+div[id^="gb_gallery"] .GB_gallery_slider{
+    position: relative;
+    display: block;
+    margin: 0px auto;
+    overflow: hidden;
+}
+div[id^="gb_gallery"] .GB_gallery_slider div[class^="GB_gallery_slider-"]{
+    position: absolute;
+    background-color: transparent;
+}
+
+div[id^="gb_gallery"] .GB_gallery_PP{
+    width: 39px;
+    height: 39px;
+    opacity: .5;
+    display: none;
+    background-image: url(../images/PP.png);
+    background-position: 0px 39px;
+    position: absolute;
+    top:5px;
+    right: 5px;
+    z-index: 101;
+}
+
+div[id^="gb_gallery"] .GB_gallery_slider .GB_gallery_desc_con{
+    position: absolute;
+    bottom: -100%;
+    width: 100%;
+    background: rgba(63, 122, 64, .25);
+    box-shadow: inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(63,122,64,0.3);
+    text-shadow: -1px -1px 2px rgba(0,0,0,0.9), -1px -1px 6px rgba(0,0,0,0.5);
+    color: #FFFFFF;
+    padding: 10px;
+    text-align: left;
+    z-index: 100;
+    opacity: 0;
+    transition: opacity 1s, bottom 1s;
+    -webkit-transition: opacity 1s, bottom 1s; /* Safari */
+}
+div[id^="gb_gallery"] .GB_gallery_slider:hover .GB_gallery_desc_con{
+    opacity: 1;
+    bottom: 0px;
+}
+div[id^="gb_gallery"] .GB_gallery_desc h1{
+    margin: 5px 0px;
+    line-height: initial;
+    white-space:nowrap;
+}
+.helpslideshow{
+    display: none;
+    opacity: 0;
+    cursor: text;
+}
+div[id^="gb_gallery"] .GB_gallery_desc p{
+    margin: 5px 0px;
+    line-height: initial;
+}
+div[id^="gb_gallery"] .GB_gallery_desc a{
+    font-weight: bold;
+}
+div[id^="gb_gallery"] div[class*="gb_big5"] h1{
+    font-size: 180%;
+}
+div[id^="gb_gallery"] div[class*="gb_big5"] p{
+    font-size: 140%;
+}
+.gb_big5 .GB_preview_more_items .GB_preview_item, .gb_big5_wide .GB_preview_more_items .GB_preview_item{
+    margin: 8px;
+}
+div[id^="gb_gallery"] div[class*="gb_big4"] h1{
+    font-size: 170%;
+}
+div[id^="gb_gallery"] div[class*="gb_big4"] p{
+    font-size: 130%;
+}
+.gb_big4 .GB_preview_more_items .GB_preview_item, .gb_big4_wide .GB_preview_more_items .GB_preview_item{
+    margin: 8px;
+}
+div[id^="gb_gallery"] div[class*="gb_big3"] h1{
+    font-size: 160%;
+}
+div[id^="gb_gallery"] div[class*="gb_big3"] p{
+    font-size: 120%;
+}
+.gb_big3 .GB_preview_more_items .GB_preview_item, .gb_big3_wide .GB_preview_more_items .GB_preview_item{
+    margin: 8px;
+}
+div[id^="gb_gallery"] div[class*="gb_big2"] h1{
+    font-size: 150%;
+}
+.gb_big2 .GB_preview_more_items .GB_preview_item, .gb_big2_wide .GB_preview_more_items .GB_preview_item{
+    margin: 6px;
+}
+div[id^="gb_gallery"] div[class*="gb_big2"] p{
+    font-size: 110%;
+}
+div[id^="gb_gallery"] div[class*="gb_big1"] h1{
+    font-size: 140%;
+}
+div[id^="gb_gallery"] div[class*="gb_big1"] p{
+    font-size: 100%;
+}
+div[id^="gb_gallery"] div[class*="gb_mid"] h1{
+    font-size: 130%;
+}
+div[id^="gb_gallery"] div[class*="gb_mid"] p{
+    font-size: 90%;
+}
+.gb_mid_wide .GB_preview_more_items .GB_preview_item{
+    margin: 4px;
+}
+div[id^="gb_gallery"] div[class*="gb_small5"] h1{
+    font-size: 110%;
+}
+div[id^="gb_gallery"] div[class*="gb_small5"] p{
+    font-size: 80%;
+}
+.gb_small5 .GB_preview_more_items .GB_preview_item, .gb_small5_wide .GB_preview_more_items .GB_preview_item{
+    margin: 4px;
+}
+div[id^="gb_gallery"] div[class*="gb_small4"] h1{
+    font-size: 110%;
+}
+div[id^="gb_gallery"] div[class*="gb_small4"] p{
+    font-size: 70%;
+}
+.gb_small4 .GB_preview_more_items .GB_preview_item{
+    margin: 3px;
+}
+.gb_small4_wide .GB_preview_more_items .GB_preview_item{
+    margin: 2px;
+  }
+.gb_small4_wide .GB_preview_items .GB_preview_item{
+    margin: 3px;
+}
+div[id^="gb_gallery"] div[class*="gb_small3"] h1{
+    font-size: 80%;
+}
+div[id^="gb_gallery"] div[class*="gb_small3"] p{
+    font-size: 50%;
+}
+.gb_small3 .GB_preview_more_items .GB_preview_item{
+    margin: 2px;
+}
+.gb_small3_wide .GB_preview_more_items .GB_preview_item{
+    margin: 2.5px;
+}
+div[id^="gb_gallery"] div[class*="gb_small2"] h1{
+    font-size: 10%;
+}
+div[id^="gb_gallery"] div[class*="gb_small2"] p{
+    font-size: 5%;
+}
+.gb_small2_wide .GB_preview_items .GB_preview_item{
+    margin: 1.2px;
+}
+.gb_small2 .GB_preview_items .GB_preview_item{
+    margin: 1.5px;
+}
+.gb_small2 .GB_preview_more_items .GB_preview_item{
+    margin: 0px;
+}
+.gb_small2_wide .GB_preview_more_items .GB_preview_item{
+    margin: 0px;
+}
+div[id^="gb_gallery"] div[class^="gb_small1"] h1{
+    font-size: 100%;
+}
+div[id^="gb_gallery"] div[class^="gb_small1"] p{
+    font-size: 10%;
+}
+
+/* preview Start */
+
+div[id^="GB_preview"]{
+    width: 100%;
+    display: none;
+    text-align: center;
+    margin: 0px auto;
+    position: relative;
+}
+div[id^="GB_preview"] .GB_preview_items{
+    margin: 0px auto;
+    padding: 0px;
+    display: inline-block;
+}
+div[id^="GB_preview"] .GB_preview_item{
+    float: left;
+    border-radius: 5px;
+    margin: 5px;
+    width: 10%;
+    height: 5%;
+    overflow: hidden;
+    box-shadow: 2px 2px 10px rgba(0,0,0,.8);
+    border: 2px solid #a0b4ab;
+    cursor: pointer;
+    -webkit-transition:  border .5s, box-shadow .5s, -webkit-transform .5s ease;/* Safari */
+    -moz-transition:  border .5s, box-shadow .5s, -moz-transform .5s ease;
+    transition:  border .5s, box-shadow .5s, transform .5s ease;
+    padding: 0px;
+    position: relative;
+    text-align: left;
+}
+
+div[id^="GB_preview"] .GB_preview_item:hover{
+    box-shadow: 10px 10px 30px rgba(0,0,0,.9);
+    transform:scale(1.5,1.5);
+    -ms-transform:scale(1.5,1.5); /* IE 9 */
+    -webkit-transform:scale(1.5,1.5); /* Safari and Chrome */
+    border: 2px solid #c4a1a5;
+    z-index: 10;
+}
+
+div[id^="GB_preview"] .GB_preview_item img{
+    width: auto;
+    height: 100%;
+    max-width: none;
+    max-height: none;
+    padding: 0px;
+    top: 0px;
+    position: absolute;
+    left: 0px;
+    margin-left: -35%;
+}
+div[class$="_wide"] .GB_preview_item img{
+    margin-left: 0;
+    width: 100%;
+}
+div[id^="GB_preview"] .GB_preview_more, div[id^="GB_preview"] .GB_preview_prev{
+    display: inline-block;
+    height: 100%;
+    position: absolute;
+    z-index: 9;
+    top:0px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: bolder;
+    padding: 5px;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity .5s;
+    -webkit-transition: opacity .5s; /* Safari */
+    font-size: 100%;
+}
+div[id^="GB_preview"] .GB_preview_more{
+    left: 0px;
+    background-image: linear-gradient(right , rgba(5,5,5,1) 0%, rgba(191,191,191,1) 100%);
+    background-image: -o-linear-gradient(right , rgba(5,5,5,1) 0%, rgba(191,191,191,1) 100%);
+    background-image: -moz-linear-gradient(right , rgba(5,5,5,1) 0%, rgba(191,191,191,1) 100%);
+    background-image: -webkit-linear-gradient(right , rgba(5,5,5,1) 0%, rgba(191,191,191,1) 100%);
+    background-image: -ms-linear-gradient(right , rgba(5,5,5,1) 0%, rgba(191,191,191,1) 100%);
+    background-image: -webkit-gradient(linear, right top, left top, color-stop(0, rgba(5,5,5,1)), color-stop(1, rgba(191,191,191,1)));
+    border-radius: 5px 0px 0px 5px;
+    box-shadow: -2px 0px 5px rgba(0,0,0,1);
+}
+div[id^="GB_preview"] .GB_preview_prev{
+    right: 0px;
+    background-image: linear-gradient(right, rgba(191,191,191,1) 100%, rgba(5,5,5,1) 0%);
+    background-image: -o-linear-gradient(right 0%, rgba(191,191,191,1) 100% , rgba(5,5,5,1));
+    background-image: -moz-linear-gradient(right 0%, rgba(191,191,191,1) 100% , rgba(5,5,5,1));
+    background-image: -webkit-linear-gradient(right 0%, rgba(191,191,191,1) 100% , rgba(5,5,5,1));
+    background-image: -ms-linear-gradient(right 0%, rgba(191,191,191,1) 100% , rgba(5,5,5,1));
+    background-image: -webkit-gradient(linear, right top, left top, color-stop(0, rgba(191,191,191,1)), color-stop(1, rgba(5,5,5,1)));
+    border-radius: 0px 5px 5px 0px;
+    box-shadow: 2px 0px 5px rgba(0,0,0,.5);
+}
+div[id^="GB_preview"]:hover>.GB_preview_more, div[id^="GB_preview"]:hover>.GB_preview_prev{
+    opacity: .8;
+}
+div[id^="GB_preview"] div[class*="gb_big5"] .GB_preview_more, div[id^="GB_preview"] div[class*="gb_big5"] .GB_preview_prev{
+    line-height: 520%;
+}
+div[id^="GB_preview"] div[class*="gb_big4"] .GB_preview_more, div[id^="GB_preview"] div[class*="gb_big4"] .GB_preview_prev{
+    line-height: 450%;
+}
+div[id^="GB_preview"] div[class*="gb_big3"] .GB_preview_more, div[id^="GB_preview"] div[class*="gb_big3"] .GB_preview_prev{
+    line-height: 390%;
+}
+div[id^="GB_preview"] div[class*="gb_big2"] .GB_preview_more, div[id^="GB_preview"] div[class*="gb_big2"] .GB_preview_prev{
+    line-height: 350%;
+}
+div[id^="GB_preview"] div[class*="gb_big1"] .GB_preview_more, div[id^="GB_preview"] div[class*="gb_big1"] .GB_preview_prev{
+    line-height: 300%;
+}
+div[id^="GB_preview"] div[class*="gb_mid"] .GB_preview_more, div[id^="GB_preview"] div[class*="gb_mid"] .GB_preview_prev{
+    line-height: 240%;
+}
+div[id^="GB_preview"] div[class*="gb_small5"] .GB_preview_more, div[id^="GB_preview"] div[class*="gb_small5"] .GB_preview_prev{
+    line-height: 200%;
+}
+div[id^="GB_preview"] div[class*="gb_small4"] .GB_preview_more, div[id^="GB_preview"] div[class*="gb_small4"] .GB_preview_prev{
+    line-height: 150%;
+}
+div[id^="GB_preview"] div[class*="gb_small3"] .GB_preview_more, div[id^="GB_preview"] div[class*="gb_small3"] .GB_preview_prev{
+    line-height: 100%;
+}
+div[id^="GB_preview"] div[class*="gb_small2"] .GB_preview_more, div[id^="GB_preview"] div[class*="gb_small2"] .GB_preview_prev{
+    line-height: 40%;
+}
+
+div[id^="GB_preview"] .GB_gallery_preview_more{
+    display: none;
+}
+div[id^="GB_preview"] .GB_gallery_preview_more_btn{
+    background: rgba(63, 122, 64, .3);
+    box-shadow: inset 0 0px 5px rgba(255,255,255,0.8);
+    text-shadow: -1px -1px 2px rgba(0,0,0,0.6);
+    color: #FFFFFF;
+    padding: 10px;
+    text-align: left;
+    border-radius: 5px;
+    text-align: center;
+}
+div[id^="GB_preview"] .GB_gallery_preview_more_btn p{
+    cursor: pointer;
+    display: inline-block;
+    margin: 0px;
+}
+div[id^="GB_preview"] .GB_gallery_preview_more_btn p.d:before, div[id^="GB_preview"] .GB_gallery_preview_more_btn p.d:after
+{
+    content:"\25BC";
+}
+div[id^="GB_preview"] .GB_gallery_preview_more_btn p.u:before, div[id^="GB_preview"] .GB_gallery_preview_more_btn p.u:after
+{
+    content:"\25B2";
+}
+div[id^="GB_preview"] .GB_gallery_preview_more{
+    margin-top: 5px;
+    max-height: 200px;
+    overflow-y: scroll;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: inset 0 0px 5px rgba(113,113,113,.8);
+    transition: box-shadow .5s;
+    -webkit-transition: box-shadow .5s;
+}
+div[id^="GB_preview"] .GB_gallery_preview_more:hover{
+    box-shadow: 0px 0px 6px 3px rgba(165, 165, 165, 1);
+}
+
+div[id^="GB_preview"] .GB_gallery_preview_more_con{
+    margin-top: 5px;
+}
+/* preview End */
+
+/* Start GB loader */
+div[id^="gb_gallery"] .GB_gallery_loader{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background:rgba(0,0,0,.9) url('../images/GB_loader.gif') center no-repeat;
+    z-index: 15;
+    display: none;
+    color:#FFF;
+    font-weight: bolder;
+    font-size: 120%;
+    padding-top: 20%;
+    text-align: center;
+}
+/* End GB loader */
+
+/* smartphones, iPhone, portrait 480x320 phones */
+@media (min-width:320px) {
+    .gb_gallery_device{
+        width: 1px;
+    }
+}
+/* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+@media (min-width:481px) {
+    .gb_gallery_device{
+        width: 1px;
+    }
+}
+/* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+@media (min-width:641px) {
+    .gb_gallery_device{
+        width: 2px;
+    }
+}
+/* tablet, landscape iPad, lo-res laptops ands desktops */
+@media (min-width:961px) {
+    .gb_gallery_device{
+        width: 3px;
+    }
+}
+/* big landscape tablets, laptops, and desktops */
+@media (min-width:1025px) {
+    .gb_gallery_device{
+        width: 4px;
+    }
+}
+/* hi-res laptops and desktops */
+@media (min-width:1281px) {
+    .gb_gallery_device{
+        width: 4px;
+    }
+}

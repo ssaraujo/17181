@@ -1,0 +1,247 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP User Control v1.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-11-09 17:35+0100\n"
+"PO-Revision-Date: 2013-03-27 16:23+0100\n"
+"Last-Translator: Szabari Bence <szabari2@gmail.com>\n"
+"Language-Team:  <support@palmspark.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;esc_attr_e;esc_attr__;"
+"esc_html_e;_x;_ex\n"
+"X-Poedit-Basepath: ../\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: wp_uc_widget.php:124
+msgid "exiting."
+msgstr "kilépés."
+
+#: inc/WPUserControlWidget.php:61
+msgid "Welcome,"
+msgstr "Üdv,"
+
+#: inc/WPUserControlWidget.php:68
+msgid "You're logged in as"
+msgstr "Bejelentkezve mint:"
+
+#: inc/WPUserControlWidget.php:70
+msgid "Log out"
+msgstr "Kijelentkezés"
+
+#: inc/WPUserControlWidget.php:79
+msgid "Admin"
+msgstr "Vezérlőpult"
+
+#: inc/WPUserControlWidget.php:82
+msgid "Profile"
+msgstr "Profil"
+
+#: inc/WPUserControlWidget.php:190
+#, php-format
+msgid "%s "
+msgstr "%s "
+
+#: inc/WPUserControlWidget.php:191
+msgid "E-mail could not be sent."
+msgstr "Az emailt nem sikerült elküldeni."
+
+#: inc/WPUserControlWidget.php:192
+msgid "Possible reason: your host may have disabled the mail() function..."
+msgstr "Lehetséges indok: a kiszolgáltató kikapcsolta az email funkciót..."
+
+#: inc/WPUserControlWidget.php:276
+msgid "Username exists. Please choose another."
+msgstr "A felhasználónév már használatban van. Kérlek válassz egy másikat!"
+
+#: inc/WPUserControlWidget.php:279
+msgid "Email already registered. Did you forget your password?"
+msgstr "Az email cím már használatban van. Nem felejtetted el a jelszavad?"
+
+#: inc/WPUserControlWidget.php:282
+msgid "Sorry, new registrations are not allowed at this time."
+msgstr "A regisztráció jelenleg nem aktív."
+
+#: inc/WPUserControlWidget.php:285
+msgid "You are logged in already. No need to register again!"
+msgstr "Te már be vagy jelentkezve!"
+
+#: inc/WPUserControlWidget.php:288
+msgid "Please enter a valid user name and email address."
+msgstr "Kérlek helyes felhasználónevet és email címet adj meg."
+
+#: inc/WPUserControlWidget.php:291
+msgid "User name cannot contain uppercase letters."
+msgstr "A felhasználónév nem tartalmazhat nagybetűket."
+
+#: inc/WPUserControlWidget.php:294
+msgid "User name cannot contain spaces."
+msgstr "A felhasználónév nem tartalnazhat \"space-t\""
+
+#: inc/WPUserControlWidget.php:297
+msgid "Registration failed. Unknown error."
+msgstr "A regisztráció sikertelen. Ismeretlen hiba."
+
+#: inc/WPUserControlWidget.php:316
+msgid ""
+"Someone has asked to reset the password for the following site and username."
+msgstr "Jelszó visszaállítást igényeltél... "
+
+#: inc/WPUserControlWidget.php:318
+msgid "A new user has been created for the following site."
+msgstr "Új felhasználó létrehozva"
+
+#: inc/WPUserControlWidget.php:321
+#, php-format
+msgid "Username: %s"
+msgstr "Felhasználónév: %s"
+
+#: inc/WPUserControlWidget.php:322
+#, php-format
+msgid "Temporary Password: %s"
+msgstr "Jelenlegi jelszó: %s"
+
+#: inc/WPUserControlWidget.php:323
+msgid "Please change your password when you login."
+msgstr "Változtasd meg a jelszavad amint belépsz."
+
+#: inc/WPUserControlWidget.php:347
+msgid ""
+"Customizable user control widget for login, registration, lost password, "
+"etc. within sidebar."
+msgstr ""
+"Személyreszabható felhasználói panel widget bejelentkezés, regisztráció, "
+"jelszó visszaállítás funkcióval."
+
+#: inc/WPUserControlWidget.php:403 inc/WPUserControlWidget.php:404
+#: inc/WPUserControlWidget.php:414
+msgid "Login"
+msgstr "Bejelentkezés"
+
+#: inc/WPUserControlWidget.php:407 inc/WPUserControlWidget.php:416
+msgid "Reset"
+msgstr "Visszaállítás"
+
+#: inc/WPUserControlWidget.php:408
+msgid "Reset Password"
+msgstr "Jelszó visszaállítás"
+
+#: inc/WPUserControlWidget.php:409 inc/WPUserControlWidget.php:410
+#: inc/WPUserControlWidget.php:415
+msgid "Register"
+msgstr "Regisztráció"
+
+#: inc/WPUserControlWidget.php:411
+msgid "WP User Control Widget"
+msgstr "WP Felhasználó Panel Widget"
+
+#: inc/WPUserControlWidget.php:437
+msgid "Title "
+msgstr "Widget neve"
+
+#: inc/WPUserControlWidget.php:444
+msgid "Display Avatar "
+msgstr "Avatar megjelenítése."
+
+#: inc/WPUserControlWidget.php:452
+msgid "Login Tab Label "
+msgstr "Bejelentkezés lap címe"
+
+#: inc/WPUserControlWidget.php:460
+msgid "Login Button Label "
+msgstr "Bejelentkezés gomb címe"
+
+#: inc/WPUserControlWidget.php:468
+msgid "Reset Tab Label "
+msgstr "Jelszó visszaállítás lap címe"
+
+#: inc/WPUserControlWidget.php:476
+msgid "Reset Button Label "
+msgstr "Jelszó visszaállítás gomb címe"
+
+#: inc/WPUserControlWidget.php:484
+msgid "Register Tab Label "
+msgstr "Regisztrációs lap címe"
+
+#: inc/WPUserControlWidget.php:492
+msgid "Register Button Label "
+msgstr "Regisztrációs gomb címe"
+
+#: inc/WPUserControlWidget.php:499
+msgid "Default Tab "
+msgstr "Alapértelmezett lap"
+
+#: inc/WPUserControlWidget.php:509
+msgid "Custom Login URL "
+msgstr "Egyedi bejelentkező link"
+
+#: inc/WPUserControlWidget.php:517
+msgid "Custom Link Title"
+msgstr "Egyedi link cím"
+
+#: inc/WPUserControlWidget.php:525
+msgid "Custom Link "
+msgstr "Egyedi link"
+
+#: inc/WPUserControlWidget.php:533
+msgid "From Email Address "
+msgstr "Email cím a jelszó visszaállításnál"
+
+#: inc/WPUserControlWidget.php:541
+msgid "From Name "
+msgstr "Név a jelszó visszaállításnál"
+
+#: inc/WPUserControlWidget.php:651
+msgid "Please check your username and password."
+msgstr "Ellenőrizd az felhasználóneved és a jelszavad."
+
+#: inc/WPUserControlWidget.php:656
+msgid "Enter your username and password below to login."
+msgstr "Bejelentkezéshez írd be a felhasználóneved és jelszavad."
+
+#: inc/WPUserControlWidget.php:661 inc/WPUserControlWidget.php:813
+msgid "Username"
+msgstr "Felhasználónév"
+
+#: inc/WPUserControlWidget.php:671
+msgid "Password"
+msgstr "Jelszó"
+
+#: inc/WPUserControlWidget.php:677
+msgid "Remember me"
+msgstr "Emlékezzen rám"
+
+#: inc/WPUserControlWidget.php:795
+msgid "Check your email for the password and then return to log in."
+msgstr "Nézd meg a postafiókodat az új jelszóért majd jelentkezz be."
+
+#: inc/WPUserControlWidget.php:798
+msgid "Complete the form below to register."
+msgstr "Töltsd ki az alábbi mezőket a regisztációhoz."
+
+#: inc/WPUserControlWidget.php:806
+msgid "New registrations currently disabled."
+msgstr "Az regisztáció jelenleg nem aktív."
+
+#: inc/WPUserControlWidget.php:818 inc/WPUserControlWidget.php:879
+msgid "Email"
+msgstr "Email"
+
+#: inc/WPUserControlWidget.php:846
+msgid "Email does not exist."
+msgstr "Az email cím nem létezik."
+
+#: inc/WPUserControlWidget.php:850
+msgid "Invalid email. Please try again."
+msgstr "Hibás email cím. Próbáld újra!"
+
+#: inc/WPUserControlWidget.php:872
+msgid "Check your email for your new password."
+msgstr "Nézd meg a postafiókodat az új jelszóért!"
+
+#: inc/WPUserControlWidget.php:875
+msgid "Enter your email address to reset your password."
+msgstr "Írd be az email címed a jelszó visszaállításához."

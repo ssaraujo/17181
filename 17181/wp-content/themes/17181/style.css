@@ -1,0 +1,15 @@
+/*  
+Theme Name: 17181
+Theme windsor 
+Description:A Bespoke Wordpress framework using the Twitter Bootstrap 
+Author:Silvio
+Author  
+Version:0.0.1  
+*/
+
+@import url('css/bootstrap.css');  
+@import url('css/bootstrap.min.css');     
+
+body {  
+padding-top: 60px;  padding-bottom: 40px; 
+ }

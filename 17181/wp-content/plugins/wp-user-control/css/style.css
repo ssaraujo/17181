@@ -1,0 +1,181 @@
+/*
+ 	WP User Control
+	Contact: Bill Edgar (bill@palmspark.com)
+	http://palmspark.com/wp-user-control
+	
+	Copyright (c) 2012, PalmSpark LLC
+	All rights reserved.
+
+	Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+	    
+	    * Redistributions of source code must retain the above copyright
+	      notice, this list of conditions and the following disclaimer.
+	    * Redistributions in binary form must reproduce the above copyright
+	      notice, this list of conditions and the following disclaimer in the
+	      documentation and/or other materials provided with the distribution.
+	    * Neither the name of the Oakton Data LLC nor the
+	      names of its contributors may be used to endorse or promote products
+	      derived from this software without specific prior written permission.
+
+	THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+	ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+	WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+	DISCLAIMED. IN NO EVENT SHALL Oakton Data LLC BE LIABLE FOR ANY
+	DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+	(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+	LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+	ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+	(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+	SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+	
+ */
+
+/* login fail message */
+span.loginfail, span.registerfail {
+	color: #FF0000;
+}
+
+/* tabbed list */
+ul.tabs_login {
+	padding: 0; margin: 20px 0 0 0;
+	position: relative;
+	list-style: none;
+	font-size: 14px;
+	z-index: 1000;
+	}
+ul.tabs_login li {
+	border: 1px solid #E7E9F6;
+	 -webkit-border-top-right-radius: 10px;
+	 -khtml-border-radius-topright: 10px;	
+	 -moz-border-radius-topright: 10px;
+	border-top-right-radius: 10px;
+	 -webkit-border-top-left-radius: 10px;
+	 -khtml-border-radius-topleft: 10px;	
+	 -moz-border-radius-topleft: 10px;
+	border-top-left-radius: 10px;
+	line-height: 28px; /* = */ height: 28px;
+	padding: 0; margin: 0 5px 0 0;
+	position: relative;
+	overflow: hidden;
+	float: left;
+	}
+ul.tabs_login li a {
+	text-decoration: none;
+	padding: 0 10px;
+	display: block;
+	outline: none;
+	}
+html ul.tabs_login li.active_login {
+	border-left: 1px solid #E7E9F6;
+	border-bottom: 1px solid #fff;
+	 -webkit-border-top-right-radius: 10px;
+	 -khtml-border-radius-topright: 10px;	
+	 -moz-border-radius-topright: 10px;
+	border-top-right-radius: 10px;
+	 -webkit-border-top-left-radius: 10px;
+	 -khtml-border-radius-topleft: 10px;	
+	 -moz-border-radius-topleft: 10px;
+	border-top-left-radius: 10px;
+	color: #333;
+	}
+html body ul.tabs_login li.active_login a { font-weight: bold; }
+.tab_container_login {
+	position: relative;
+	margin: 0 0 20px 0;
+	border: 1px solid #E7E9F6;
+	 -webkit-border-bottom-left-radius: 10px;
+	 -khtml-border-radius-bottomleft: 10px;	
+	 -moz-border-radius-bottomleft: 10px;
+	border-bottom-left-radius: 10px;
+	 -webkit-border-bottom-right-radius: 10px;
+	 -khtml-border-radius-bottomright: 10px;	
+	 -moz-border-radius-bottomright: 10px;
+	border-bottom-right-radius: 10px;
+	 -webkit-border-top-right-radius: 10px;
+	 -khtml-border-radius-topright: 10px;	
+	 -moz-border-radius-topright: 10px;
+	border-top-right-radius: 10px;
+	z-index: 999;
+	clear: left;
+	width: 100%;
+	top: -1px;
+	}
+.tab_content_login {
+	padding: 7px 15px 15px 15px;
+	padding-top: 10px;
+	}
+	.tab_content_login ul {
+		padding: 0; margin: 0 0 0 15px;
+		}
+		.tab_content_login li { margin: 5px 0; }
+/* global styles */
+#wp-user-control-login-register-password {}
+	#wp-user-control-login-register-password h3 {
+		border: 0 none;
+		margin: 10px 0;
+		padding: 0;
+		}
+	#wp-user-control-login-register-password p {
+		font-size: 12px;
+		margin: 0 0 10px 0;
+		padding: 0;
+		}
+		
+/* form elements */
+.wp-user-form {}
+.reg_pot {
+	display: none;
+}
+.username, .password, .login_fields {
+	margin: 7px 0 0 0;
+	overflow: hidden;
+	width: 100%;
+}
+.username label, .password label { 
+	float: left;
+	clear: none;
+}
+.username input, .password input { 
+	font: 12px/1.5 "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
+	float: left; 
+	clear: left;
+	width: 15em;
+	padding: 2px 3px; 
+	color: #777;
+}
+.rememberme { 
+	overflow: hidden; 
+	width: 100%; 
+	margin-bottom: 7px; 
+}
+#rememberme { 
+	float: left; 
+	clear: none; 
+	margin: 4px 4px -4px 0; 
+}
+.user-submit { 
+	padding: 5px 10px; 
+	margin: 5px 0; 
+}
+#wp-user-control-sidebox{
+	clear:none;
+}
+#wp-user-control-userinfo { 
+	clear: left;
+	margin-left: 0px;
+	margin-bottom: 10px; 
+}
+#wp-user-control-userinfo p { 
+	margin-right: 0px;
+}
+/* avatar */
+#wp-user-control-usericon { 
+	float: left; 
+	clear: none; 
+	margin: 0 0 5px 0px; 
+}
+#wp-user-control-usericon img {
+	border: 1px solid #0066FF;
+	/* border: 1px solid #F4950E; */
+	padding: 1px;
+}

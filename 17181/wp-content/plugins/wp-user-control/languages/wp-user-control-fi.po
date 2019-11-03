@@ -1,0 +1,209 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP User Control\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-03-08 11:43-0500\n"
+"PO-Revision-Date: 2012-03-14 15:09-0500\n"
+"Last-Translator: Bill Edgar <bill.edgar@oaktondata.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;esc_attr_e;esc_attr__;esc_html_e;_x;_ex\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: wp_uc_widget.php:124
+msgid "exiting."
+msgstr "poistuminen."
+
+#: inc/WPUserControlWidget.php:178
+msgid "Customizable user control widget for login, registration, lost password, etc. within sidebar."
+msgstr "Muokattavat käyttäjän tunnistus widget kirjautuminen, rekisteröinti, unohtuiko salasana jne. sisällä sivupalkissa."
+
+#: inc/WPUserControlWidget.php:241
+#: inc/WPUserControlWidget.php:242
+#: inc/WPUserControlWidget.php:250
+msgid "Login"
+msgstr "Kirjaudu sisään"
+
+#: inc/WPUserControlWidget.php:243
+#: inc/WPUserControlWidget.php:252
+msgid "Reset"
+msgstr "Palauta"
+
+#: inc/WPUserControlWidget.php:244
+msgid "Reset Password"
+msgstr "Palauta Salasana"
+
+#: inc/WPUserControlWidget.php:245
+#: inc/WPUserControlWidget.php:246
+#: inc/WPUserControlWidget.php:251
+msgid "Register"
+msgstr "Rekisteri"
+
+#: inc/WPUserControlWidget.php:247
+msgid "WP User Control Widget"
+msgstr "WP User Control Widget"
+
+#: inc/WPUserControlWidget.php:273
+msgid "Title "
+msgstr "Otsikko"
+
+#: inc/WPUserControlWidget.php:280
+msgid "Display Avatar "
+msgstr "Näytä Viesti"
+
+#: inc/WPUserControlWidget.php:288
+msgid "Login Tab Label "
+msgstr "Kirjaudu Välilehti Etiketti"
+
+#: inc/WPUserControlWidget.php:296
+msgid "Login Button Label "
+msgstr "Kirjaudu Painike Etiketti"
+
+#: inc/WPUserControlWidget.php:304
+msgid "Reset Tab Label "
+msgstr "Palauta Välilehti Etiketti"
+
+#: inc/WPUserControlWidget.php:312
+msgid "Reset Button Label "
+msgstr "Palauta Painike Etiketti"
+
+#: inc/WPUserControlWidget.php:320
+msgid "Register Tab Label "
+msgstr "Rekisteri Välilehti Etiketti"
+
+#: inc/WPUserControlWidget.php:328
+msgid "Register Button Label "
+msgstr "Rekisteri Painike Etiketti"
+
+#: inc/WPUserControlWidget.php:335
+msgid "Default Tab "
+msgstr "Oletusarvo Välilehti"
+
+#: inc/WPUserControlWidget.php:345
+msgid "Custom Login URL "
+msgstr "Custom Kirjautumisosoite"
+
+#: inc/WPUserControlWidget.php:353
+msgid "Custom Link Title"
+msgstr "Oma Linkin Otsikko"
+
+#: inc/WPUserControlWidget.php:361
+msgid "Custom Link "
+msgstr "Oma Linkki"
+
+#: inc/WPUserControlWidget.php:467
+msgid "Login failed. Please check your username and password."
+msgstr "Kirjautuminen epäonnistui. Tarkista käyttäjätunnuksesi ja salasanasi."
+
+#: inc/WPUserControlWidget.php:473
+msgid "Enter your username and password below to login."
+msgstr "Anna käyttäjätunnus ja salasana kirjautuaksesi."
+
+#: inc/WPUserControlWidget.php:478
+#: inc/WPUserControlWidget.php:541
+msgid "Username"
+msgstr "Käyttäjätunnus"
+
+#: inc/WPUserControlWidget.php:488
+msgid "Password"
+msgstr "Salasana"
+
+#: inc/WPUserControlWidget.php:494
+msgid "Remember me"
+msgstr "Muista minut"
+
+#: inc/WPUserControlWidget.php:513
+msgid "Check your email for the password and then return to log in."
+msgstr "Tarkista sähköpostisi salasanan ja palaa sitten kirjautumiseen."
+
+#: inc/WPUserControlWidget.php:520
+msgid "Registration failed. Username exists. Please choose another."
+msgstr "Rekisteröinti epäonnistui. Käyttäjätunnus olemassa. Valitse toinen."
+
+#: inc/WPUserControlWidget.php:527
+msgid "Registration failed. Email already registered. Did you forget your password?"
+msgstr "Rekisteröinti epäonnistui. Sähköposti jo rekisteröity. Unohtuiko salasana?"
+
+#: inc/WPUserControlWidget.php:533
+msgid "Registration failed. Unknown error."
+msgstr "Rekisteröinti epäonnistui. Tuntematon virhe."
+
+#: inc/WPUserControlWidget.php:537
+msgid "Complete the form below to register."
+msgstr "Täytä alla oleva lomake rekisteröityäksesi."
+
+#: inc/WPUserControlWidget.php:551
+msgid "Email"
+msgstr "Sähköpostiosoite"
+
+#: inc/WPUserControlWidget.php:588
+msgid "Username or email does not exist."
+msgstr "Käyttäjätunnus tai sähköpostiosoite ei ole."
+
+#: inc/WPUserControlWidget.php:592
+msgid "Invalid username or email. Please try again."
+msgstr "Virheellinen käyttäjätunnus tai sähköpostitse. Yritä uudelleen."
+
+#: inc/WPUserControlWidget.php:603
+msgid "Someone has asked to reset the password for the following site and username."
+msgstr "Joku on pyytänyt palauttaa salasanan seuraavasta sivustosta ja käyttäjätunnus."
+
+#: inc/WPUserControlWidget.php:605
+#, php-format
+msgid "Username: %s"
+msgstr "Käyttäjätunnus: %s"
+
+#: inc/WPUserControlWidget.php:606
+msgid "To reset your password visit the following address, otherwise just ignore this email and nothing will happen."
+msgstr "Voit salasanan saat osoitteesta, muuten vain jättää tämän viestin, ja mitään ei tapahdu."
+
+#: inc/WPUserControlWidget.php:609
+#, php-format
+msgid "[%s] Password Reset"
+msgstr "[%s] Salasana on nollattu."
+
+#: inc/WPUserControlWidget.php:610
+msgid "E-mail could not be sent."
+msgstr "Sähköpostiosoite ei voitu lähettää."
+
+#: inc/WPUserControlWidget.php:611
+msgid "Possible reason: your host may have disabled the mail() function..."
+msgstr "Mahdollinen syy: isäntä ehkä estänyt sähköposti toiminto ..."
+
+#: inc/WPUserControlWidget.php:622
+msgid "Check your email to reset your password."
+msgstr "Tarkista sähköpostisi ja salasanan."
+
+#: inc/WPUserControlWidget.php:625
+msgid "Enter your username or email to reset your password."
+msgstr "Anna käyttäjänimesi tai sähköpostiosoitteesi uuden salasanan."
+
+#: inc/WPUserControlWidget.php:629
+msgid "Username or Email"
+msgstr "Käyttäjätunnus tai sähköposti"
+
+#: inc/WPUserControlWidget.php:649
+msgid "Welcome,"
+msgstr "Tervetuloa,"
+
+#: inc/WPUserControlWidget.php:656
+msgid "You're logged in as"
+msgstr "Olet kirjautunut sisään kuin "
+
+#: inc/WPUserControlWidget.php:658
+msgid "Log out"
+msgstr "Kirjaudu ulos"
+
+#: inc/WPUserControlWidget.php:663
+msgid "Admin"
+msgstr "Admin"
+
+#: inc/WPUserControlWidget.php:666
+msgid "Profile"
+msgstr "Profiili"
+

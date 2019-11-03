@@ -1,0 +1,10 @@
+Version 1.0
+
+	i) Initial Release
+	
+Version 1.0.0.2
+
+	i) [BUGFIX] Full Width Page Layout Fixed	
+	ii) Corrected Year in Readme and Style.css
+	iii) [BUGFIX] Added Text Domains in options.php
+	iv) Added .pot file
